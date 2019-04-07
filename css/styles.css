@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    background-color: rgba(38, 3, 57, 1);
+    display: grid;
+    justify-content: center;
+    color: white;
+}
+
+header {
+  margin: 15px 0;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgba(100, 100, 200, 1);
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(75px, 150px));
+  grid-gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  border: solid 2px rgba(150, 150, 150, 1);
+  border-radius: 5px;
+  background-color: rgba(61, 18, 85, 1);
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: rgba(61, 18, 85, .5);
+  transition: .3s;
+}
+
+.is-hidden {
+  visibility: hidden;
+}
+
+.flipped {
+transition: .5s
+rgba(151, 117, 170, 1)
+}
